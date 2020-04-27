@@ -48,7 +48,7 @@ rosbag::RecorderOptions parseOptions(int argc, char** argv) {
     po::options_description desc("Allowed options");
 
     desc.add_options()
-      ("help,h", "produce help message")
+      ("help,h", "Test of modification Produce help message")
       ("all,a", "record all topics")
       ("regex,e", "match topics using regular expressions")
       ("exclude,x", po::value<std::string>(), "exclude topics matching regular expressions")
